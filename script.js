@@ -14,7 +14,7 @@ function addTodoItem(text) {
    const list = document.getElementById('todo-list');
 
    // Crea un nuovo elemento <li>
-const todoItem = document.createElement('li');
+   const todoItem = document.createElement('li');
    const todoSpan = document.createElement('span');
    todoSpan.textContent = text;
    const deleteBtn = document.createElement('button');
